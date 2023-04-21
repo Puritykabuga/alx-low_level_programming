@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints function using printf and the return should be 0
- * return value o
+ * return: 0
  */
 int main(void)
 {
