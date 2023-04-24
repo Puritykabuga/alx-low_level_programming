@@ -2,7 +2,7 @@
 #include <time.h>
 /* main - print number stored in varriable is positive or negative */
 
-/* Return: 0 */
+/* Return: always */
 int main(void)
 {
 	int n;
@@ -12,15 +12,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 		{
-	printf("is positive");
+	printf("%d is positive\n", n);
 	}
-	else if (n < 0)
+	else if (n == 0)
 	{
-	printf("is negative");
+	printf("%d is zero\n", n);
 	}
 	else
 		{
-	printf("is zero");
+	printf("%d is negative\n", n);
 	}
 	return (0);
 }
