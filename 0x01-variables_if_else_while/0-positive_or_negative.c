@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /* main - print number stored in varriable is positive or negative */
 
@@ -12,7 +12,7 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 		{
-	printf("value of a: %d\n", n);
+	printf("%d is Negative\n", n);
 	}
 	else if (n == 0)
 	{
