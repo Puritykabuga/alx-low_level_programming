@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 /* main - print number stored in varriable is positive or negative */
-
 /* Return: always */
 int main(void)
 {
