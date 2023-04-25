@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - print using function printf */
-/* Return: always */
+/**
+ *  main - print using function printf
+ *  Return: 0 is a success
+*/
 int main(void)
 {
 	int n;
