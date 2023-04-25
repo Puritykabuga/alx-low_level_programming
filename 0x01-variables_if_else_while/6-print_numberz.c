@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Prints single digit numbers of base 10 starting from 0 function pintf
+ * main - Prints single digit of base 10 starting from 0 function putchar
  * Return:0 is a success
- */
+*/
+
 int main(void)
+
 {
-	int num;
+	int n;
 
-	for (num = 0; num < 10; num++)
-		printf("%d", num);
-
-	printf("\n");
+	for (n = '0'; n <= '9'; n++)
+		putchar(n);
+	putchar('\n');
 
 	return (0);
 }
