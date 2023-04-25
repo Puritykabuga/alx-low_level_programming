@@ -4,7 +4,7 @@
 
 /**
  * main - main prints the alphabet in lowercase using putchar function
- * Returns: 0 is a succes
+ * Return: 0 is a succes
 */
 
 int main(void)
@@ -13,8 +13,8 @@ int main(void)
 char ch;
 
 for (ch = 'a'; ch <= 'z'; ch++)
-purchar(ch);
-purchar('\n');
+putchar(ch);
+putchar('\n');
 
 return (0);
 }
