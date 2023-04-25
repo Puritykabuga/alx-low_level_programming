@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - print number stored in varriable is positive or negative using function printf */
+/* main - print number positive or negative using function printf */
 /* Return: always */
 int main(void)
 {
