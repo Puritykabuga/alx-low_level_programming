@@ -3,8 +3,8 @@
 /**
  * _isupper - check for upper
  * @x: number to be checked
- * return: 1 for upper letter or for else is 0
-*/
+ * Return: 1 for upper letter or for else is 0
+ */
 
 int _isupper(int x)
 
