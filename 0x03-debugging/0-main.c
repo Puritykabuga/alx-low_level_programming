@@ -9,7 +9,6 @@ int main(void)
 {
 int i;
 i = 0;
-printf("piositive_or_negative(\i)", i);
-
+piositive_or_negative(i);
 return (0);
 }
