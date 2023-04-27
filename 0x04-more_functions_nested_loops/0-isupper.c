@@ -5,7 +5,7 @@
  * return: 1 for upper letter or for else is 0
  */
 
-int int rint _isupper(int c);
+int _isupper(int c);
 
 {
 	if (c >= 65 && c <= 90)
