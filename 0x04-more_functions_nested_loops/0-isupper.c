@@ -2,6 +2,7 @@
 
 /**
  * main - check for uppercase
+ * @y: number to be checked
  * return: 1 for upper letter or for else is 0
  */
 
