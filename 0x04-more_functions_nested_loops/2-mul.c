@@ -2,10 +2,14 @@
 
 /**
  * mul - multiplie two integers
- * Return: result of multiply of a and b is a succes
+ * @x: first number to multiply
+ * @y: second number to multiply with the first
+ * Return: result of multiply of x and y is a succes
  */
 
-int mul(int a, int b);
+int mul(int x, int y)
 {
-return (a * b);
+
+return (x * y);
+
 }
