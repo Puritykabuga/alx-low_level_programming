@@ -5,10 +5,10 @@
  * return: 1 for upper letter or for else is 0
  */
 
-int _isupper(int c);
+int _isupper(int y);
 
 {
-	if (c >= 65 && c <= 90)
+	if (y >= 65 && y <= 90)
 	{
 	return (1);
 	}
