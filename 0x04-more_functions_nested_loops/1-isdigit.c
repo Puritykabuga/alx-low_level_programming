@@ -2,7 +2,7 @@
 
 /**
  * main - checks for a _isdigit
- * Return: 1 if C is a digit
+ * Return: 1 if c is a digit
  */
 
 
