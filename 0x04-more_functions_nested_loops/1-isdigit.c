@@ -5,11 +5,9 @@
  * Return: 1 if C is a digit
  */
 
-int main(void)
-
+int _isdigit(int c)
 {
-char _isdigit = 'c';
-if (isdigit(_isdigit))
+if (c >= 48 && <= 57)
 {
 return (1);
 }
