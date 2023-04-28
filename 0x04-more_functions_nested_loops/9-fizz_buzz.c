@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 /**
+ * main - prints function printf
  * Description: prints the numbers 1 - 100 w/
  * Fizz for multiples 0f 3, five print Buzz
  * and FizzBuzz for  multiples of both three and five
