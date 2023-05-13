@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - prints name
+ * main - prints its name
  * @argc: argument count
  * @argv: argument vector
+ * Return: 0 is a success
  */
 
 int main(int argc, char *argv[])
