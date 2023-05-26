@@ -13,7 +13,7 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-	va_list strings;
+va_list strings;
 	char *str;
 	unsigned int index;
 
@@ -36,3 +36,4 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_end(strings);
 }
+
