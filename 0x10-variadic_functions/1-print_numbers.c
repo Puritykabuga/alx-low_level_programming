@@ -8,24 +8,22 @@
  * @n: number of strings passed to the function
  * @...: A variable number of numbers to be printed.
 */
-void print_strings(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
-va_list strings;
-char *str;
-unsigned int index;
+va_list nums;
+	unsigned int index;
 
-va_start(strings, n);
-for (index = 0; index < n; index++)
-{
-str = va_arg(strings, char*);
-if (str == NULL)
-printf("(nil)");
-else
-printf("%s", str);
+	va_start(nums, n);
 
-if (index != (n - 1) && separator != NULL)
-printf("%s", separator);
-}
-printf("\n");
-va_end(strings);
+	for (index = 0; index < n; index++)
+	{
+		printf("%d", va_arg(nums, int));
+
+		if (index != (n - 1) && separator != NULL)
+			printf("%s", separator);
+	}
+
+	printf("\n");
+
+	va_end(nums);
 }
